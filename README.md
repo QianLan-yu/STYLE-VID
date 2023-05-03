@@ -9,4 +9,5 @@ As analyzed in the paper, long-term Re-ID in video is closer to human awareness 
 ![image](./picture/Comparison.png)
 
 ## The Process of Dataset Production
+In this work, we propose a Style-Transferring sYnthetic Long-tErm Video Re-ID (STYLE-VID) dataset particularly for long-term Re-ID. We perform clothing style migration and pedestrian silhouette extraction on it. Firstly, we use the DG-Net to generate new sequences by performing clothing style migration for each sequence. These sequences were combined with the original data to form the RGB sequence part of the STYLE-VID. Then, to obtain the corresponding silhouette sequences, we used a semantic segmentation model to extract the pedestrian silhouettes from the color image sequences. 
 ![image](./picture/Generating.png)
